@@ -35,12 +35,16 @@ header a {
   color: white;
   background-color: black;
   justify-content: space-between;
+  background-image: url(/images/black\ and\ white\ apex.jpeg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .content {
-  border: solid 2px red;
   height: 400px;
   width: 600px;
-  margin-left: 40px;
+  margin-left: 60px;
   margin-top: 30px;
   padding-left: 20px;
   padding-top: 20px;
@@ -49,10 +53,13 @@ header a {
 .content h2 {
   font-size: 55px;
   padding-bottom: 30px;
+  text-shadow: 3px 3px 3px black;
 }
 
 .content p {
   font-size: 20px;
+  text-shadow: 2px 2px 2px black;
+  color: gold;
 }
 .content button {
   margin-top: 30px;
@@ -68,7 +75,7 @@ header a {
 }
 
 .left {
-  width: 600px;
+  width: 1455px;
   text-align: center;
   padding-top: 20px;
   background-color: RGB(204, 68, 119);
@@ -89,7 +96,7 @@ header a {
 .right {
   color: white;
   background-color: #1481ad;
-  width: 100%;
+  width: 500px;
   text-shadow: 2px 1px black;
 }
 
@@ -122,7 +129,6 @@ footer {
   justify-content: flex-end;
   height: 300px;
   margin-top: 30px;
-  margin-right: 50px;
 }
 
 .labels {

@@ -88,7 +88,12 @@ bookNowBtn.addEventListener("click", function () {
   formCon.appendChild(btn);
 
   btn.addEventListener("click", function () {
+    alert('Thank you for booking we will contact you soon')
+      bookNowBtn.disabled = true;
     location.reload();
+  
   });
-  bookNowBtn.disabled = true;
+
 });
+
+
