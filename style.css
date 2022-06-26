@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: white;
+  background-color: black;
+  padding-bottom: 10px;
+  align-content: center;
+  padding-top: 5px;
+  border-bottom: solid 1px white;
+}
+
+header nav ul li {
+  display: inline-flex;
+  padding: 10px;
+}
+
+header a {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  color: white;
+  background-color: black;
+  justify-content: space-between;
+}
+.content {
+  border: solid 2px red;
+  height: 400px;
+  width: 600px;
+  margin-left: 40px;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.content h2 {
+  font-size: 55px;
+  padding-bottom: 30px;
+}
+
+.content p {
+  font-size: 20px;
+}
+.content button {
+  margin-top: 30px;
+  padding: 10px 10px 10px 10px;
+  border-right: 5px solid gold;
+  color: white;
+  background-color: black;
+}
+
+.bottom {
+  display: flex;
+  height: 400px;
+}
+
+.left {
+  width: 600px;
+  text-align: center;
+  padding-top: 20px;
+  background-color: RGB(204, 68, 119);
+  color: white;
+  text-shadow: 2px 1px black;
+}
+.left h2 {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+.left p {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.right {
+  color: white;
+  background-color: #1481ad;
+  width: 100%;
+  text-shadow: 2px 1px black;
+}
+
+.right h2 {
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.right p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: white;
+  background-color: black;
+}
+
+.form-container {
+  padding: 20px;
+  justify-content: flex-end;
+  height: 300px;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+.labels {
+  display: block;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin-right: 300px;
+}
+
+.input {
+  display: block;
+  padding-bottom: 10px;
+}
+
+#btn-submit {
+  margin-top: 10px;
+  padding: 10px 5px 10px 5px;
+  color: white;
+  background-color: #f519ee;
+  border: none;
+}
